@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title></title>
+        <style>
+            * {padding:0;margin:0;font-family:Helvetica;}
+            #header{height:70px;background-color:#f44336;color:white;}
+            #left{
+                height:600px;
+                width:300px;
+                background-color:#03a9f4;
+                color:white;
+                float:left;
+            }
+            #left h1 { margin:15px 20px -10px 20px;width:50px;}
+            h1{ margin:10px 20px;}
+            #left p{ margin:20px; font-size:13px; height:300px; width:250px; }
+            #right{
+                height:600px;
+                width:680px;
+                float:left;
+            }
+            #arrow_img {
+                margin:10px;
+                width:50px;
+                float:left;
+             }
+            .intro{
+                float:left;
+                height:100px;
+                width:250px;
+                font-size:13px;
+                }
+             .intro p {
+                font-size:inherit;
+                height:40px;
+                margin:5px;
+             }
+            #right .page{background-color: white; height:600px;width:400px;float:left;}
+            #right .page h1{width:50px;}
+            #link{
+                background-color:white;
+                float:left;
+                width:280px;
+                height:600px;
+            }
+            #link a {
+            color:#f44336;
+            display:block;
+            margin:5px 20px;
+            font-size:13px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header">
+                <h1>rENDER</h1>
+            </div>
+                <div id="left">
+                    <h1>LICENSE</h1>
+                    <p>Copyright (C) 2016 Elyar Adil (Elyar.Adil @ gmail.com) This work is free. You can redistribute it and/or modify it under the
+    terms of the Do What The Fuck You Want To Public License, Version 2,
+    as published by Sam Hocevar. See the COPYING file for more details.</p>
+                </div>
+                <div id="right">
+
+                    <div class="page">
+                        <h1>INTRO</h1>
+                        <img src="arrow.png" id="arrow_img"/>
+                        <div class="intro">
+                            <p>rENDER is a toy web browser engine written in python.</p>
+                            <p style="height:155px;">The engine parses html and css itself without any external library, and uses Tkinter for painting. Only support a small subset of HTML/CSS. And uses a single tree during the whole process, without any optimization or error-handling.</p>
+                            <p>Support float layout and rendering text.</p>
+                        </div>
+                    </div>
+                    <div id="link">
+                        <h1>Elyar Adil</h1>
+                        <a>elyar.adil@gmail.com</a>
+                        <a>http://elyar.me</a>
+                    </div>
+                </div>
+
+        </div>
+    </body>
+</html>

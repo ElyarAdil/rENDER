@@ -1,0 +1,9 @@
+*{clear:none;text-decoration:none;display:block;color:inherit;float:none;width:100%;background-color:inherit;font-family:Times;font-size:10px;word-spacing:5px;padding:0;}
+html{background-color:white;color:black;}
+head, style, script{display:none;}
+h1{font-size:30px;width:100%;}
+h2{font-size:20px;width:100%;}
+h3{font-size:10px;width:100%;}
+h4{font-size:5px;width:100%;}
+div{display:block;width:100%;}
+a{color:blue;text-decoration:underline;}
